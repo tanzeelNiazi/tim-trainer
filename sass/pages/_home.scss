@@ -1,0 +1,16 @@
+body {
+  background: $color__primary;
+}
+
+.logo {
+  &__title {
+    font-size: $unit__large * 0.75;
+  }
+
+  &__description {
+    color: $color__light;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 4px;
+  }
+}

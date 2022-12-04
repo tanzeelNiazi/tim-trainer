@@ -1,0 +1,13 @@
+.main-bar {
+  padding: $unit__medium $unit__normal;
+  margin: auto;
+  background: $color__quaternary;
+  color: $color__light;
+}
+
+.top-navbar {
+  @include max-width-container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

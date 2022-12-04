@@ -1,0 +1,7 @@
+.site-header {
+  @include max-width-container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $unit__large 0;
+}

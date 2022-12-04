@@ -1,0 +1,60 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__medium;
+}
+
+.link {
+  &:link,
+  &:visited {
+    color: $color__gray;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__light;
+  }
+}
+
+.home-link {
+  color: $color__light;
+
+  &:link,
+  &:visited {
+    opacity: 0.75;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    opacity: 1;
+  }
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__small;
+  .nav-link {
+    padding: $unit__normal $unit__submedium;
+
+    &:link,
+    &:visited {
+      color: $color__light;
+    }
+
+    &:hover,
+    &:active {
+      color: $color__light;
+    }
+  }
+}
+
+.special-link {
+  background: linear-gradient(45deg, rgba($color__gray, 0.4), $color__gray);
+  font-weight: bold;
+  box-shadow: -1px -1px 2px $color__light;
+  border-radius: 5px;
+}

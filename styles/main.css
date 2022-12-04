@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 1.6;
+  font-size: 1.6rem;
 }
 
 *,
@@ -14,6 +14,103 @@ body {
 
 html {
   font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.special {
+  color: #05aedf;
+  font-weight: 700;
+}
+
+.main-bar {
+  padding: 3.2rem 1.6rem;
+  margin: auto;
+  background: #1a1919;
+  color: #ffffff;
+}
+
+.top-navbar {
+  max-width: 120rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.link:link, .link:visited {
+  color: #84898d;
+  transition: all 0.3s;
+}
+.link:hover, .link:active {
+  color: #ffffff;
+}
+
+.home-link {
+  color: #ffffff;
+}
+.home-link:link, .home-link:visited {
+  opacity: 0.75;
+  transition: all 0.3s;
+}
+.home-link:hover, .home-link:active {
+  opacity: 1;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.nav-links .nav-link {
+  padding: 1.6rem 2.4rem;
+}
+.nav-links .nav-link:link, .nav-links .nav-link:visited {
+  color: #ffffff;
+}
+.nav-links .nav-link:hover, .nav-links .nav-link:active {
+  color: #ffffff;
+}
+
+.special-link {
+  background: linear-gradient(45deg, rgba(132, 137, 141, 0.4), #84898d);
+  font-weight: bold;
+  box-shadow: -1px -1px 2px #ffffff;
+  border-radius: 5px;
+}
+
+.site-header {
+  max-width: 120rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.8rem 0;
+}
+
+body {
+  background: #13151e;
+}
+
+.logo__title {
+  font-size: 3.6rem;
+}
+.logo__description {
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 4px;
 }
 
 /*# sourceMappingURL=main.css.map */
