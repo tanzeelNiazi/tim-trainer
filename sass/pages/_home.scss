@@ -14,3 +14,66 @@ body {
     padding-left: 4px;
   }
 }
+
+.hero {
+  @include max-width-container;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__normal;
+  color: $color__light;
+}
+
+.hero-desc {
+  width: 50%;
+
+  &__title {
+    line-height: 0.9;
+    padding-bottom: $unit__normal;
+    span {
+      font-size: $unit__large;
+      text-transform: uppercase;
+      color: $color__secondary;
+      display: block;
+      font-weight: 300;
+      letter-spacing: 3px;
+    }
+    span + span {
+      font-size: $unit__huge;
+      color: $color__light;
+      font-weight: 900;
+      letter-spacing: unset;
+    }
+  }
+
+  &__description {
+    line-height: 1.7;
+    font-size: $unit__submedium * 0.75;
+  }
+}
+
+.hero-image-wrapper {
+  width: 50%;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.tweet-container {
+  background: $color__quaternary;
+  color: $color__light;
+}
+
+.tweets {
+  @include max-width-container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweet {
+  width: 75%;
+  font-size: $unit__submedium * 0.75;
+  padding: 0 $unit__medium;
+}

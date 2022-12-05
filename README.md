@@ -43,3 +43,4 @@ Visit [www.tanzeel.website](http://www.tanzeel.website) or contact me on tanzeel
 Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/29255863/Fitness-WordPress-Theme)
+- [Man Holding Dumbbell](https://www.pexels.com/photo/man-holding-black-dumbbell-1229356/)
