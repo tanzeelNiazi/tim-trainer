@@ -30,7 +30,7 @@ body {
   &__title {
     line-height: 0.9;
     padding-bottom: $unit__normal;
-    span {
+    span:first-child {
       font-size: $unit__large;
       text-transform: uppercase;
       color: $color__secondary;
@@ -76,4 +76,46 @@ body {
   width: 75%;
   font-size: $unit__submedium * 0.75;
   padding: 0 $unit__medium;
+}
+
+.programs {
+  @include max-width-container;
+  margin: $unit__medium auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $color__light;
+  gap: $unit__medium;
+}
+
+.program {
+  width: 30%;
+  position: relative;
+  background: $color__gray;
+  padding: $unit__submedium;
+  box-shadow: -1px -1px 1px 1px $color__light;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &__title {
+    position: relative;
+    font-size: $unit__large;
+    z-index: 1;
+    line-height: 0.9;
+    margin-bottom: $unit__normal;
+    span {
+      text-transform: uppercase;
+      display: block;
+      font-weight: 300;
+    }
+
+    span + span {
+      font-weight: 900;
+    }
+  }
+
+  &__desc {
+    position: relative;
+    z-index: 1;
+  }
 }
