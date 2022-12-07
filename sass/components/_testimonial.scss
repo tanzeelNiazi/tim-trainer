@@ -1,0 +1,20 @@
+.testimonial {
+  background: $color__gray;
+  padding: $unit__normal;
+  border-radius: 10px;
+
+  blockquote {
+    line-height: 1.5;
+  }
+
+  .author {
+    text-align: right;
+    margin-top: $unit__submedium;
+
+    span:first-child {
+      text-transform: uppercase;
+      font-weight: 700;
+      display: block;
+    }
+  }
+}

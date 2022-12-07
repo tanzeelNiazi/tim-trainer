@@ -128,6 +128,29 @@ a {
   background: linear-gradient(45deg, #84898d, #84898d);
 }
 
+.cat-links {
+  padding: 1.6rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.cat-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+.cat-link .link:link, .cat-link .link:visited {
+  color: rgba(5, 174, 223, 0.75);
+  transition: all 0.3s;
+}
+.cat-link .link:hover, .cat-link .link:active {
+  color: #05aedf;
+}
+
 .site-header {
   max-width: 120rem;
   margin: auto;
@@ -151,6 +174,78 @@ a {
   right: -15%;
   transform: translate(0, -50%);
   opacity: 0.25;
+}
+
+.svg-blog {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: #ffffff;
+}
+
+.svg-link {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: #05aedf;
+}
+
+.svg-quote {
+  width: 4.8rem;
+  height: 4.8rem;
+  fill: rgba(255, 255, 255, 0.75);
+}
+
+.blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2.4rem;
+  padding: 3.2rem 12.8rem 3.2rem 0;
+}
+
+.blog-image-wrapper {
+  width: 40%;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-content {
+  width: 60%;
+}
+.blog-content__title {
+  font-size: 3.2rem;
+}
+.blog-content__meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.4rem;
+  margin: 0.8rem auto;
+}
+.blog-content__meta span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.testimonial {
+  background: #84898d;
+  padding: 1.6rem;
+  border-radius: 10px;
+}
+.testimonial blockquote {
+  line-height: 1.5;
+}
+.testimonial .author {
+  text-align: right;
+  margin-top: 2.4rem;
+}
+.testimonial .author span:first-child {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
 }
 
 body {
@@ -268,6 +363,31 @@ body {
 .program__desc {
   position: relative;
   z-index: 1;
+}
+
+.content {
+  max-width: 120rem;
+  margin: auto;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.news-updates {
+  width: 80%;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.testimonials {
+  margin: 4.8rem auto;
+}
+.testimonials__title {
+  font-size: 2.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */

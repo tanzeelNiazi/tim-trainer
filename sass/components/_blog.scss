@@ -1,0 +1,38 @@
+.blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: $unit__submedium;
+  padding: $unit__medium $unit__gigantic $unit__medium 0;
+}
+
+.blog-image-wrapper {
+  width: 40%;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-content {
+  width: 60%;
+
+  &__title {
+    font-size: $unit__medium;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: $unit__submedium;
+    margin: $unit__small auto;
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: $unit__tiny;
+    }
+  }
+}

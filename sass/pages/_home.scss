@@ -119,3 +119,27 @@ body {
     z-index: 1;
   }
 }
+
+.content {
+  @include max-width-container;
+  color: $color__light;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: $unit__medium;
+}
+
+.news-updates {
+  width: 80%;
+}
+.sidebar {
+  width: 20%;
+}
+
+.testimonials {
+  margin: $unit__large auto;
+
+  &__title {
+    font-size: $unit__submedium;
+  }
+}

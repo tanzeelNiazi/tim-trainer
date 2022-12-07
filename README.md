@@ -44,3 +44,6 @@ Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/29255863/Fitness-WordPress-Theme)
 - [Man Holding Dumbbell](https://www.pexels.com/photo/man-holding-black-dumbbell-1229356/)
+- [Exercising With Supervision](https://www.pexels.com/photo/a-man-in-blue-shirt-exercising-with-supervision-6111616/)
+- [Man Doing Yoga](https://www.pexels.com/photo/man-doing-yoga-2294363/)
+- [Man Lifting Bar](https://www.pexels.com/photo/a-shirtless-man-lifting-bar-12959247/)
