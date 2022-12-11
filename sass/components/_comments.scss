@@ -1,0 +1,20 @@
+.comment {
+  margin-bottom: $unit__medium;
+  padding-bottom: $unit__submedium;
+  border-bottom: 2px solid rgba($color__gray, 0.2);
+}
+
+.comment-metadata {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: $unit__small;
+  margin-bottom: $unit__normal;
+}
+
+.user-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}

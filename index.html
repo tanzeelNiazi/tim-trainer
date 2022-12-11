@@ -135,7 +135,9 @@
                   />
                 </div>
                 <div class="blog-content">
-                  <h3 class="blog-content__title">Lorem ipsum dolor</h3>
+                  <a href="#" class="title-link"
+                    ><h3 class="blog-content__title">Lorem ipsum dolor</h3></a
+                  >
                   <div class="blog-content__meta">
                     <span class="date">
                       <svg class="svg-blog">
@@ -168,7 +170,9 @@
                   />
                 </div>
                 <div class="blog-content">
-                  <h3 class="blog-content__title">Quisquam rerum</h3>
+                  <a href="#" class="title-link">
+                    <h3 class="blog-content__title">Quisquam rerum</h3>
+                  </a>
                   <div class="blog-content__meta">
                     <span class="date">
                       <svg class="svg-blog">
@@ -201,9 +205,11 @@
                   />
                 </div>
                 <div class="blog-content">
-                  <h3 class="blog-content__title">
-                    Praesentium fuga blanditiis
-                  </h3>
+                  <a href="#" class="title-link">
+                    <h3 class="blog-content__title">
+                      Praesentium fuga blanditiis
+                    </h3>
+                  </a>
                   <div class="blog-content__meta">
                     <span class="date">
                       <svg class="svg-blog">
@@ -226,6 +232,7 @@
                   </p>
                 </div>
               </div>
+              <a href="#" class="more-posts">More Posts</a>
             </div>
           </div>
           <div class="sidebar">
@@ -310,7 +317,154 @@
           </div>
         </div>
       </section>
-      <footer class="root-footer"></footer>
+      <footer class="root-footer">
+        <div class="footer">
+          <div class="footer-column about-me">
+            <h3 class="footer-column__title">About Me</h3>
+            <div class="about-me-image-wrapper">
+              <img
+                src="./assets/about-me.jpg"
+                alt="Tim Braun Profile Picture"
+                class="about-me-image"
+              />
+            </div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              commodi, sunt adipisci nihil enim unde vel quis suscipit quasi.
+            </p>
+            <p>
+              Corporis quos vel aliquam esse atque molestiae sit! Placeat? Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Atque velit
+              beatae aliquid eos officia molestiae ea nobis. Eius, eos harum
+              nihil voluptas sint id officia, culpa ullam, eligendi beatae
+              soluta!
+            </p>
+          </div>
+          <div class="footer-column navigation">
+            <h3 class="footer-column__title">Navigation</h3>
+            <nav class="services-links">
+              <a href="#" class="service-link">Testimonials</a>
+              <a href="#" class="service-link">Programs</a>
+              <a href="#" class="service-link">About Me</a>
+              <a href="#" class="service-link">Blog</a>
+              <a href="#" class="service-link">Contact</a>
+            </nav>
+          </div>
+          <div class="footer-column archives">
+            <h3 class="footer-column__title">Navigation</h3>
+            <nav class="archives-links">
+              <a href="#" class="archive-link">
+                <span class="month">July, 2022</span>
+                <span class="post-count">(5)</span>
+              </a>
+              <a href="#" class="archive-link">
+                <span class="month">August, 2022</span>
+                <span class="post-count">(2)</span>
+              </a>
+              <a href="#" class="archive-link">
+                <span class="month">September, 2022</span>
+                <span class="post-count">(15)</span>
+              </a>
+              <a href="#" class="archive-link">
+                <span class="month">October, 2022</span>
+                <span class="post-count">(1)</span>
+              </a>
+              <a href="#" class="archive-link">
+                <span class="month">November, 2022</span>
+                <span class="post-count">(0)</span>
+              </a>
+              <a href="#" class="archive-link">
+                <span class="month">December, 2022</span>
+                <span class="post-count">(8)</span>
+              </a>
+            </nav>
+          </div>
+          <div class="footer-column comments">
+            <h3 class="footer-column__title">Latest Comments</h3>
+            <div class="latest-comments">
+              <div class="comment">
+                <div class="comment-metadata">
+                  <svg class="user-avatar">
+                    <use
+                      xlink:href="./assets/svg-sprites.svg#user-avatar"
+                    ></use>
+                  </svg>
+                  <div class="user-info">
+                    <a href="#" class="commentator">Emily Wannabe</a>
+                    <span class="comment-time">July 17, 2022</span>
+                  </div>
+                </div>
+                <div class="comment-body">
+                  <p class="comment-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Aut fuga qui, impedit fugit a officiis inventore voluptate
+                    similique exercitationem, doloremque sit dicta amet,
+                    adipisci laudantium modi? Obcaecati fuga distinctio tempore.
+                  </p>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comment-metadata">
+                  <svg class="user-avatar">
+                    <use
+                      xlink:href="./assets/svg-sprites.svg#user-avatar"
+                    ></use>
+                  </svg>
+                  <div class="user-info">
+                    <a href="#" class="commentator">John Whodunit</a>
+                    <span class="comment-time">July 17, 2022</span>
+                  </div>
+                </div>
+                <div class="comment-body">
+                  <p class="comment-text">
+                    Obcaecati fuga distinctio tempore officiis inventore
+                    voluptate similique exercitationem, doloremque sit dicta
+                    amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="attribution">
+            <style>
+              .attribution {
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                right: 1.6rem;
+                padding: 3.2rem 0;
+              }
+              .attribution__link {
+                display: inline-block;
+                padding: 0.4rem 0.8rem;
+                border-radius: 5px;
+                transition: all 0.3s;
+              }
+              .attribution__link:link,
+              .attribution__link:visited {
+                background: #fd4b1b;
+                color: #fffcfb;
+              }
+              .attribution__link:hover,
+              .attribution__link:active {
+                background: #a57ff7;
+                transform: rotateZ(-25deg) scale(1.1);
+              }
+
+              .tanzeel {
+                font-size: 1.2rem;
+              }
+            </style>
+            <p class="tanzeel">
+              coded with ❤️ by
+              <a href="http://www.tanzeel.website" class="attribution__link"
+                >Tanzeel Akhtar</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="./main.js"></script>
   </body>

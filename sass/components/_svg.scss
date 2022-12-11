@@ -23,11 +23,15 @@
 .svg-link {
   width: $unit__normal;
   height: $unit__normal;
-  fill: $color__secondary;
 }
 
 .svg-quote {
   width: $unit__large;
   height: $unit__large;
   fill: rgba($color__light, 0.75);
+}
+
+.user-avatar {
+  width: $unit__huge;
+  height: $unit__huge;
 }

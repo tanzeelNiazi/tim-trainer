@@ -47,3 +47,4 @@ Following Images/Designs/Icons are used for creation of this website:
 - [Exercising With Supervision](https://www.pexels.com/photo/a-man-in-blue-shirt-exercising-with-supervision-6111616/)
 - [Man Doing Yoga](https://www.pexels.com/photo/man-doing-yoga-2294363/)
 - [Man Lifting Bar](https://www.pexels.com/photo/a-shirtless-man-lifting-bar-12959247/)
+- [Man Sitting on Bench](https://www.pexels.com/photo/grayscale-photo-of-man-sitting-on-bench-1431283/)

@@ -44,7 +44,8 @@
 
   &:link,
   &:visited {
-    color: $color__light;
+    color: rgba($color__light, 0.5);
+    transition: all 0.3s;
   }
 
   &:hover,
@@ -129,14 +130,83 @@
   align-items: center;
   justify-content: space-between;
   gap: $unit__small;
+
   & .link:link,
   & .link:visited {
-    color: rgba($color__secondary, 0.75);
+    color: $color__light;
     transition: all 0.3s;
   }
 
   & .link:hover,
   & .link:active {
-    color: rgba($color__secondary, 1);
+    color: $color__secondary;
+  }
+}
+
+.title-link {
+  &:link,
+  &:visited {
+    color: $color__light;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__secondary;
+  }
+}
+.svg-link {
+  fill: $color__light;
+  transform: rotate(180deg);
+  transition: all 0.3s;
+}
+
+.cat-link:hover .svg-link {
+  fill: $color__secondary;
+  transform: rotate(0deg);
+}
+
+.services-links,
+.archives-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: $unit__small;
+}
+
+.archive-link,
+.service-link,
+.commentator {
+  &:link,
+  &:visited {
+    color: $color__light;
+    transition: all 0.5s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__secondary;
+    text-decoration: underline;
+  }
+}
+
+.more-posts {
+  margin: $unit__medium auto;
+  padding: $unit__normal;
+  border-radius: 10px;
+
+  &:link,
+  &:visited {
+    color: rgba($color__light, 0.5);
+    background: rgba($color__gray, 0.75);
+    box-shadow: -1px -1px 2px $color__light;
+    transition: all 0.8s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__light;
+    background: rgba($color__gray, 1);
   }
 }
